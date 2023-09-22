@@ -116,7 +116,7 @@ gt_plt_bar_stack <- function(gt_object,
               group = .data$y
             )
           ) +
-          geom_col(position = position, color = "white", width = 1) +
+          geom_col(position = position, color = "white", size = 0.5) +
           #geom_text(
           #  aes(label = fmt_fn(x)),
           #  hjust = 0.5,
